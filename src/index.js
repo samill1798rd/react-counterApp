@@ -1,14 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import PrimeraApp from './PrimeraApp';
 import CounterApp from './CounterApp';
 
 import './index.css';
 
 
-const divRoot = document.querySelector('#app');
+const container = document.getElementById('app');
 
-ReactDOM.render(<CounterApp value={ 1 }  />, divRoot);
+const root = createRoot(container);
+
+root.render(<CounterApp value={ 10 }  />);
 
 
 
