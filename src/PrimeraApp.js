@@ -22,7 +22,7 @@ PrimeraApp.propTypes={
 }
 
 PrimeraApp.defaultProps = {
-    subtitulo: '',
+    subtitulo: 'Soy un titulo',
 }
 
 export default PrimeraApp;

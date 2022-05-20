@@ -16,3 +16,8 @@ button:hover{
     cursor: pointer;
     background-color: #21232A;
 }
+
+img{
+    padding: 10px,50px,10px,10px;
+}
+
